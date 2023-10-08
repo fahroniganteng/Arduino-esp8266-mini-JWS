@@ -1,10 +1,14 @@
 /**
  * @file ronnWifi.h
  * @author fahroni|ganteng (fahroniganteng@gmail.com)
- * *************************************************************
- * Fungsi buat handle wifi
- *
+ * @brief 
+ * @version 1.0
+ * @date 2023-10-08
+ * 
+ * @copyright Copyright (c) 2023
+ * 
  */
+
 
 const char *ssid = "JAM-JWS";
 const char *passphrase = ""; // no pass...

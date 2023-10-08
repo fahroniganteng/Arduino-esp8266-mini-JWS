@@ -1,32 +1,12 @@
 /**
- * @file wemos JamMatrixLed MD_MAX72XX_v5.ino
+ * @file code.ino
  * @author fahroni|ganteng (fahroniganteng@gmail.com)
- * @brief
- * @version 1.5.0
- * @date 2022-12-07
- *
- * @copyright Copyright (c) 2022
- *  * Version 06
- * - TambaH JWS (Jam Waktu Sholat)
- * - Temperature di hapus
- *
- *  * Version 05
- * - update ntpclient versi baru (sudah normal tanpa modif script)
- * - tambah timeClient.begin() --> sebelumnya kelupaan kayaknya :D
- * - modif fungsi gmtime --> yang lama hasilnya ngaco di ESP8266 lib baru
- * - mx.setFont(false) error juga di lib. baru
- *    font default copy ke const uint8_t font_default[] PROGMEM
- *    panggil mx.setFont(font_default)
- * - Mod. PIN mode:
- *    #define CLK_PIN   D5 // or SCK
- *    #define DATA_PIN  D7 // or MOSI
- *    #define CS_PIN    D8 // or SS
- * - add cek jumlah client yang konek jika jadi soft AP, sehingga pas ada yang setting tidak auto re-connect wifi
- *
- * Version 03
- * - remove run hour ==> eeprom issue (to many write eeprom)
- * - default setting if empty / error
- * - auto re-connect wifi when wifi setting not empty
+ * @brief 
+ * @version 1.0
+ * @date 2023-10-08
+ * 
+ * @copyright Copyright (c) 2023
+ * 
  */
 
 #include <math.h> // buat ngitung suhu (fungsi log)

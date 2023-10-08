@@ -1,8 +1,12 @@
 /**
  * @file ronnHtml.h
  * @author fahroni|ganteng (fahroniganteng@gmail.com)
- * ***************************************************************
- * HTML Request Handle
+ * @brief 
+ * @version 1.0
+ * @date 2023-10-08
+ * 
+ * @copyright Copyright (c) 2023
+ * 
  */
 
 String header = "<!DOCTYPE html>\

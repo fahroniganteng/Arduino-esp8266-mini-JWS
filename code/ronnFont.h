@@ -1,14 +1,14 @@
 /**
- * @file roniGantengFont.h
+ * @file ronnFont.h
  * @author fahroni|ganteng (fahroniganteng@gmail.com)
- *
- * *************************************************************
- * List Custom Font
- * - Font default tak pindah disini juga (font_default)
- *   Karena di lib. esp8266 yang baru nggak bisa pake fungsi mx.setFont(false)
- *   untuk memanggil default font
- *
+ * @brief 
+ * @version 1.0
+ * @date 2023-10-08
+ * 
+ * @copyright Copyright (c) 2023
+ * 
  */
+
 #pragma once
 
 const uint8_t font_JAM[] PROGMEM =

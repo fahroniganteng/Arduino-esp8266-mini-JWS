@@ -1,8 +1,12 @@
 /**
- * @file roniGantengLedAnimation.h
+ * @file ronnLedAnimation.h
  * @author fahroni|ganteng (fahroniganteng@gmail.com)
- * *******************************************************************
- * Fungsi buat handle matrix led
+ * @brief 
+ * @version 1.0
+ * @date 2023-10-08
+ * 
+ * @copyright Copyright (c) 2023
+ * 
  */
 
 #include "MD_MAX72xx.h"

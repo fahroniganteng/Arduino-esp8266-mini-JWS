@@ -1,12 +1,12 @@
 /**
  * @file ronnEeprom.h
  * @author fahroni|ganteng (fahroniganteng@gmail.com)
- * @brief
+ * @brief 
  * @version 1.0
- * @date 2023-09-29
- *
+ * @date 2023-10-08
+ * 
  * @copyright Copyright (c) 2023
- *
+ * 
  */
 
 /**
