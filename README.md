@@ -113,7 +113,7 @@ Jika anda memerlukan untuk melakukan modifikasi kode, anda bisa menggunakan Ardu
 
 ## Box
 
-Berikut ini hanya contoh box yang pernah saya bikin dengan 3D Printer, namun untuk ukuran PCB modul matrix led tidak selalu sama, mungkin akan memerlukan beberapa penyesuaian dengan modul yang anda beli.
+Berikut adalah box yang pernah saya bikin dengan 3D Printer, namun untuk ukuran PCB modul matrix led tidak selalu sama, mungkin akan memerlukan beberapa penyesuaian dengan modul yang anda beli.
 ![box1](box/box1.png)
 ![box3](box/box3.png)
 
