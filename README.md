@@ -1,4 +1,4 @@
-# arduino-esp8266-mini-jam-waktu-sholat
+# Arduino-esp8266-mini-JWS
 
 Mini JWS (Jam Waktu Sholat) dengan ESP8266 dan Matrix LED MAX7219
 
@@ -7,14 +7,14 @@ Mini JWS (Jam Waktu Sholat) dengan ESP8266 dan Matrix LED MAX7219
 - Koneksi jam dengan wifi
 - Seting jam dengan web base
 - Update waktu ke NTP Server  
-  Desain jam ini update waktu ke NTP server di internet (`time.google.com, pool.ntp.org, pool.ntp.org dll`), namun jika dalam jaringan (LAN) anda memiliki NTP server, maka jam bisa bekerja tanpa koneksi internet.  
+  Desain jam ini update waktu ke NTP server di internet (`time.google.com, pool.ntp.org, time.windows.com`), namun jika dalam jaringan (LAN) anda memiliki NTP server, maka jam bisa bekerja tanpa koneksi internet.  
   Untuk alamat NTP server bisa diganti pada seting jam.
   > Anda perlu menambahkan modul RTC dan memodifikasi kode jika ingin jam benar-benar offline.
 - Beberapa tema jam
 - Durasi pergantian dapat disesuaikan
 - Menampilkan jam waktu sholat  
-  - Peritungan jam sholat menggunakan lokasi (koordinat) dan timezone
-  - Metode pertitungan kemenag :
+  - Perhitungan jam sholat menggunakan lokasi (koordinat) dan timezone
+  - Metode perhitungan kemenag :
     - Subuh : 20 deg
     - Asar : Perbandingan bayangan 1 (Shafi'i dan lainnya)
     - Isya : 18 deg
@@ -31,15 +31,15 @@ Mini JWS (Jam Waktu Sholat) dengan ESP8266 dan Matrix LED MAX7219
   > - Jafari : Shia Ithna Ashari (Ja`fari)
   > - Custom : Custom setting
   >
-  > Namun pada menu seting jam yang ditampilan hanya metode kemenag (metode custom) agar tidak membingungkan pengguna, jika anda memerlukan menggunakan metode perhitungan lain, anda harus mengganti di code nya
+  > Namun pada menu seting jam yang ditampilkan hanya metode kemenag (metode custom) agar tidak membingungkan pengguna, jika anda memerlukan menggunakan metode perhitungan lain, anda harus mengganti di code nya
 
-## Demo & Instalasi
+## Video Demo & Instalasi
 >
 > menyusul....
 
 <!-- [![DEMO](http://img.youtube.com/vi/GxMegb_iBR0/0.jpg)](https://youtu.be/GxMegb_iBR0) -->
 
-## Components
+## Komponen
 
 - ESP8266 board (Wemos, nodemcu, etc)
 - Matrix led (MAX7219)
@@ -51,7 +51,7 @@ Mini JWS (Jam Waktu Sholat) dengan ESP8266 dan Matrix LED MAX7219
 ![Foto1](wiring/foto1.png)
 ![Foto2](wiring/foto2.png)
 
-## Software & Driver
+## Software , Driver dan Instalasi 
 
 Baberapa board ESP8266 seperti wemos dan nodeMCU menggunakan chip CH340 untuk serial komunikas, anda bisa download drivernya dari link berikut:
 
@@ -117,7 +117,7 @@ Berikut ini hanya contoh box yang pernah saya bikin dengan 3D Printer, namun unt
 ![box1](box/box1.png)
 ![box3](box/box3.png)
 
-## Usage
+## Seting Jam
 
 Secara default, saat pertama kali selesai diinstal perangkat akan menjadi access point wifi :
 
