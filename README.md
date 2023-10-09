@@ -99,7 +99,7 @@ Jika anda hanya ingin install saja tanpa modifikasi kode, menggunkan ESP Tool ad
   > CATATAN :
   > - Tutorial diata adalah untuk OS Windows.
   > - Untuk OS lain silakan mendownload ESP Tool sesuai versi OS-nya [cek disini](https://github.com/espressif/esptool/releases)
-  > - File bin (`wemos.bin`) adalah compile untuk board wemos, tidak bisa digunakan untuk board ESP8266 yang lain.
+  > - File bin (`wemos.bin`) adalah binary yang di compile untuk board wemos, tidak bisa digunakan untuk board ESP8266 yang lain.
   
 ### 2. Dengan Arduino IDE
 
