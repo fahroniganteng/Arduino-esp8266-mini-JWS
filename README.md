@@ -34,10 +34,8 @@ Mini JWS (Jam Waktu Sholat) dengan ESP8266 dan Matrix LED MAX7219
   > Namun pada menu seting jam yang ditampilkan hanya metode kemenag (metode custom), jika anda memerlukan menggunakan metode perhitungan lain, anda harus mengganti di code nya
 
 ## Video Demo & Instalasi
->
-> menyusul....
 
-<!-- [![DEMO](http://img.youtube.com/vi/GxMegb_iBR0/0.jpg)](https://youtu.be/GxMegb_iBR0) -->
+[![DEMO](http://img.youtube.com/vi/aN8uahImBbo/0.jpg)](https://youtu.be/aN8uahImBbo)
 
 ## Komponen
 
