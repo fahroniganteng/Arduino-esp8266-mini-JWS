@@ -69,7 +69,7 @@ Ada 2 cara untuk upload ke board ESP8622, silakan sesuaikan dengan kebutuhan and
 Jika anda hanya ingin install saja tanpa modifikasi kode, menggunkan ESP Tool adalah cara yang cepat dan lebih mudah.  
 
 - Cek port Wemos yang terkoneksi pada PC dari device manager
-- Buka file `upload.bat` dengan text editor kemudian sesuaikan port-nya
+- Buka file `upload.bat` pada folder `bin` dengan text editor kemudian sesuaikan port-nya
 - Jalankan `upload.bat`
 
   ```bat
@@ -107,9 +107,9 @@ Jika anda memerlukan untuk melakukan modifikasi kode, anda bisa menggunakan Ardu
 
 - Install arduino IDE [cek disini](https://www.arduino.cc/)
 - Tambahkan board ESP8266 pada arduino IDE [cek disini](https://github.com/esp8266/Arduino)
-- Buka code.ino pada folder code
+- Buka `code.ino` pada folder `code`
 - Lakukan modifikasi kode jika diperlukan
-- Upload sketch ke board.
+- Sesuaikan jenis board dan port-nya, kemudian upload sketch.
 
 ## Box
 
